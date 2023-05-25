@@ -1,2 +1,2 @@
 # Leetcode_Questions
-In this repository I will be uploading the solutions of leetcode questions 
+In this repository I will be uploading the solutions of leetcode questions in JAVA language 
