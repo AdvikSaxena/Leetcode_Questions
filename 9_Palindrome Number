@@ -1,0 +1,25 @@
+class Solution {
+    public boolean isPalindrome(int x) {
+        if(x<0)
+        {
+            return false;
+        }
+        else{
+            int t=x,p=0;
+            while(x!=0)
+            {
+                p*=10;
+                p=p+(x%10);
+                x/=10; 
+            }
+            if(p==t)
+            {
+                return true;
+            }
+            else
+            {
+                return false;
+            }
+        }
+    }
+}
